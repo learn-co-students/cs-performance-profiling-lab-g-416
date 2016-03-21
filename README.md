@@ -12,6 +12,9 @@ For this lab we provide a class called `Profiler` that contains code for running
 
 You will use `Profiler` to measure and classify the performance of the `add` method for the Java implementations of `ArrayList` and `LinkedList`.
 
+You'll need to "test" that you've got the right output for this lesson by making
+sure that your results conform to the runtime expectations.
+
 
 ## Profiler
 
