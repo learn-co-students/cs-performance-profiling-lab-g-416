@@ -8,7 +8,7 @@
 
 ## Overview
 
-For this lab we provide a class called `Profiler` that contains code for running code with a range of problem sizes, measuring runtimes, then plotting and analyzing the results.
+For this lesson we provide a class called `Profiler` that contains code for running code with a range of problem sizes, measuring runtimes, then plotting and analyzing the results.
 
 You will use `Profiler` to measure and classify the performance of the `add` method for the Java implementations of `ArrayList` and `LinkedList`.
 
@@ -50,7 +50,7 @@ This method measures the time it takes to run `add` on an `ArrayList`, which add
 
 In order to use `Profiler`, we need to create a `Timeable` object that provides two methods: `setup` and `timeMe`.  The `setup` method does whatever needs to be done before we start the clock; in this case it creates an empty list.  Then `timeMe` does whatever operation we are trying to measure; in this case it adds `n` elements to the list.
 
-The code that creates `timeable` is an anonymous class that defines a new implementation of the `Timeable` interface and creates an instance of the new class at the same time.  If you are not familiar with anonymous classes, you can [read about them here](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html).  But you really don't need to know much for this lab; even if you are not comfortable with anonymous classes, you can do the exercises by copying and modifying the example code.
+The code that creates `timeable` is an anonymous class that defines a new implementation of the `Timeable` interface and creates an instance of the new class at the same time.  If you are not familiar with anonymous classes, you can [read about them here](https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html).  But you really don't need to know much for this lesson; even if you are not comfortable with anonymous classes, you can do the exercises by copying and modifying the example code.
 
 The next step is to create the `Profiler` object, passing the `Timeable` object and a title as parameters.
 
@@ -128,13 +128,13 @@ One important point: if you see a straight line on a graph like this, that does 
 
 ## Instructions
 
-When you check out the respository for this lab, you should find a file structure similar to what you saw in previous labs.  The top level directory contains `CONTRIBUTING.md`, `LICENSE.md`, `README.md`, and the directory that contains the code for this lab, `javacs-lab04`.
+When you check out the respository for this lesson, you should find a file structure similar to what you saw in previous lessons.  The top level directory contains `CONTRIBUTING.md`, `LICENSE.md`, `README.md`, and the directory that contains the code for this lesson, `javacs-lab04`.
 
-In the subdirectory `javacs-lab04/src/com/flatironschool/javacs` you'll find the source files you need for this lab:
+In the subdirectory `javacs-lab04/src/com/flatironschool/javacs` you'll find the source files you need for this lesson:
 
 1.  `Profiler.java` contains the implementation of the `Profiler` class described above.  You will use this class, but you don't have to know how it works.  But feel free to read the source.
 
-2.  `ProfileAdd.java` contains starter code for this lab, including the example, above, which profiles `ArrayList.add`.  You will modify this file to profile a few other methods.
+2.  `ProfileAdd.java` contains starter code for this lesson, including the example, above, which profiles `ArrayList.add`.  You will modify this file to profile a few other methods.
 
 Also, in `javacs-lab04`, you'll find the Ant build file `build.xml`.
 
