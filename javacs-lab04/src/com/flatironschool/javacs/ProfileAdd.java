@@ -60,7 +60,7 @@ public class ProfileAdd {
 			}
 		};
 		int startN = 4000;
-		int endMillis = 1000;
+		int endMillis = 10000;
 		runProfiler("ArrayList add end", timeable, startN, endMillis);
 	}
 
@@ -82,8 +82,8 @@ public class ProfileAdd {
 				}
 			}
 		};
-		int startN = 64000;
-		int endMillis = 1000;
+		int startN = 128000;
+		int endMillis = 2000;
 		runProfiler("ArrayList add end", timeable, startN, endMillis);
 	}
 
